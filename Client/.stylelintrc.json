@@ -1,0 +1,7 @@
+{
+	"root": true,
+	"extends": [
+		"stylelint-config-recommended-vue",
+		"stylelint-config-tailwindcss"
+	]
+}

@@ -1,9 +1,11 @@
 <script lang="ts" setup>
-definePageMeta({
-	layout: "default"
-})
+	import { NotFoundPage } from "@templates";
+
+	definePageMeta({
+		layout: "default"
+	});
 </script>
 
 <template>
-	<h1>Error Page</h1>
+	<NotFoundPage />
 </template>
