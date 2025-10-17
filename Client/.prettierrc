@@ -12,14 +12,14 @@
 	"endOfLine": "auto",
 	"printWidth": 100,
 	"bracketSpacing": true,
-	"plugins": ["prettier-plugin-svelte", "prettier-plugin-tailwindcss"],
-	"overrides": [
-		{
-			"files": "*.svelte",
-			"options": {
-				"parser": "svelte"
-			}
-		}
-	],
-	"tailwindStylesheet": "./styles/tailwindcss.css"
+	"plugins": [
+		"prettier-plugin-tailwindcss",
+		"prettier-plugin-vue",
+		"prettier-plugin-organize-attributes",
+		"prettier-plugin-style-order",
+		"prettier-plugin-packagejson",
+		"prettier-plugin-organize-imports",
+		"prettier-plugin-sh",
+		"prettier-plugin-css-order"
+	]
 }

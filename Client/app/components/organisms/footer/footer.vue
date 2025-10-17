@@ -1,5 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-	<h2>Footer</h2>
+	<footer>
+		<h2 class="text-red-600 text-[14rem]">Footer</h2>
+	</footer>
 </template>

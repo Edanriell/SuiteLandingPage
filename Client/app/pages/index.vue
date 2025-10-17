@@ -1,12 +1,11 @@
 <script lang="ts" setup>
+	import { HomePage } from "@templates";
 
-import Home from "~/components/templates/pages/home/home.vue";
-
-definePageMeta({
-	layout: "default"
-})
+	definePageMeta({
+		layout: "default"
+	});
 </script>
 
 <template>
-	<Home />
+	<HomePage />
 </template>
