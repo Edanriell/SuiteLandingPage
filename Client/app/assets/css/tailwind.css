@@ -1,22 +1,30 @@
 @import "tailwindcss";
 
 @layer base {
-	html {
-		font-size: 6.25%;
-		scroll-behavior: smooth;
-		box-sizing: border-box;
-	}
+    html {
+        font-size: 6.25%;
+        scroll-behavior: smooth;
+        box-sizing: border-box;
+    }
 
-	body {
-		position: relative;
-		font-size: 16em;
-		text-rendering: geometricPrecision;
-	}
+    body {
+        position: relative;
+        font-size: 16em;
+        text-rendering: geometricPrecision;
+    }
 }
 
 @theme {
-	--breakpoint-mobile: 375px;
-	--breakpoint-tablet: 768px;
-	--breakpoint-laptop: 1366px;
-	--breakpoint-desktop: 1440px;
+    --breakpoint-mobile: 375px;
+    --breakpoint-tablet: 768px;
+    --breakpoint-laptop: 1366px;
+    --breakpoint-desktop: 1440px;
+}
+
+:root {
+    --colors-neutral-0: #faf8f6;
+    --colors-neutral-200: #f3ede7;
+    --colors-neutral-500: #49566d;
+    --colors-neutral-900: #172339;
+    --colors-eupatorium-purple-500: #cb30e3;
 }

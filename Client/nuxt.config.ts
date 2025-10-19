@@ -26,7 +26,8 @@ export default defineNuxtConfig({
 			{
 				configFile: ".stylelintrc.json"
 			}
-		]
+		],
+		"motion-v/nuxt"
 	],
 	vite: { plugins: [tailwindcss()] }
 });
