@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-	import { Copyright, Logotype } from "@atoms";
-	import { SocialLinks } from "@molecules";
+import { Copyright, Logotype, SocialLink } from "@atoms";
+import { SocialLinks } from "@molecules";
 </script>
 
 <template>
@@ -9,6 +9,10 @@
 	>
 		<Logotype />
 		<Copyright />
-		<SocialLinks />
+		<SocialLinks>
+			<SocialLink description="Link to our Facebook page" type="facebook" />
+			<SocialLink description="Link to our Twitter page" type="twitter" />
+			<SocialLink description="Link to our Instagram page" type="instagram" />
+		</SocialLinks>
 	</footer>
 </template>
