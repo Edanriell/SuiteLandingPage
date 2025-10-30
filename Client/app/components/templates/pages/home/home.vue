@@ -1,5 +1,7 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+	import { HeroSection } from "@organisms";
+</script>
 
 <template>
-	<h1>Home Page</h1>
+	<HeroSection />
 </template>

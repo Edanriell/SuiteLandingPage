@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import { Copyright, Logotype, SocialLink } from "@atoms";
-import { SocialLinks } from "@molecules";
+	import { Copyright, Logotype, SocialLink } from "@atoms";
+	import { SocialLinks } from "@molecules";
 </script>
 
 <template>
