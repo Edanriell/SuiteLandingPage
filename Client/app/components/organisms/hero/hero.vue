@@ -1,16 +1,16 @@
 <script lang="ts" setup>
-import { Button } from "@atoms";
+	import { Button } from "@atoms";
 </script>
 
 <template>
 	<section
-		class="ml-[16rem] mr-[16rem] pt-[40rem] pb-[285rem] tablet:ml-[32rem] tablet:mr-[32rem] tablet:pt-[48rem] tablet:pb-[266rem] tablet:grid tablet:grid-rows-1 tablet:grid-cols-[1fr_81rem_199rem]"
+		class="ml-[16rem] mr-[16rem] pt-[40rem] pb-[285rem] tablet:ml-[32rem] tablet:mr-[32rem] tablet:pt-[48rem] tablet:pb-[266rem] tablet:grid tablet:grid-rows-1 tablet:grid-cols-[1fr_81rem_199rem] desktop:ml-[166rem] desktop:mr-[164rem] desktop:pt-[29rem] desktop:pb-[190rem] desktop:grid-cols-[1.7fr_161rem_189rem_1fr]"
 	>
 		<div
 			class="flex flex-col tablet:col-start-[1] tablet:col-end-[3] tablet:row-start-[1] tablet:row-end-[2] tablet:z-2"
 		>
 			<h1
-				class="font-[Epilogue] font-normal text-[38rem] leading-[110%] tracking-[-0.01em] text-[var(--colors-neutral-900)] mb-[24rem] tablet:text-[56rem] tablet:mb-[40rem] tablet:mt-[87rem]"
+				class="font-[Epilogue] font-normal text-[38rem] leading-[110%] tracking-[-0.01em] text-[var(--colors-neutral-900)] mb-[24rem] tablet:text-[56rem] tablet:mb-[40rem] tablet:mt-[87rem] desktop:text-[72rem] desktop:mt-[98rem] desktop:mb-[40rem]"
 			>
 				A
 				<strong class="font-bold!"
@@ -31,7 +31,21 @@ import { Button } from "@atoms";
 							/>
 						</svg>
 						<svg
-							class="hidden absolute top-[-52rem] left-[72rem] tablet:block"
+							class="hidden absolute top-[-62rem] left-[72rem] tablet:block desktop:hidden"
+							fill="none"
+							height="34"
+							viewBox="0 0 288 34"
+							width="288"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M0.459717 32.9999C0.459717 32.9999 138.72 -39.0001 287.46 32.9999"
+								stroke="#172339"
+								stroke-width="2"
+							/>
+						</svg>
+						<svg
+							class="hidden absolute top-[-62rem] left-[0] desktop:block"
 							fill="none"
 							height="34"
 							viewBox="0 0 288 34"
@@ -51,7 +65,7 @@ import { Button } from "@atoms";
 				<strong class="font-bold!">business.</strong>
 			</h1>
 			<p
-				class="font-[Epilogue] font-normal text-[18rem] leading-[160%] tracking-[0.01em] text-[var(--colors-neutral-500)] mb-[40rem] tablet:mb-[48rem] tablet:max-w-[350rem]"
+				class="font-[Epilogue] font-normal text-[18rem] leading-[160%] tracking-[0.01em] text-[var(--colors-neutral-500)] mb-[40rem] tablet:mb-[48rem] tablet:max-w-[350rem] desktop:mb-[64rem]"
 			>
 				Our marketing and sales automations help you scale your outreach to get more leads
 				for your company.
@@ -89,9 +103,11 @@ import { Button } from "@atoms";
 				width="350"
 			/>
 		</div>
-		<div class="relative tablet:col-start-[1] tablet:col-end-[-1] tablet:mt-[80rem]">
+		<div
+			class="relative tablet:col-start-[1] tablet:col-end-[-1] tablet:mt-[80rem] desktop:mt-[unset] desktop:col-start-[unset] desktop:col-end-[unset] desktop:content-center"
+		>
 			<dl
-				class="flex flex-col gap-y-[40rem] items-center tablet:grid tablet:gap-x-[64rem] tablet:grid-cols-[1fr_1fr_1fr]"
+				class="flex flex-col gap-y-[40rem] items-center tablet:grid tablet:gap-x-[64rem] tablet:grid-cols-[1fr_1fr_1fr] desktop:grid-cols-[unset] desktop:grid-rows-[86rem_86rem_86rem] desktop:gap-y-[64rem] desktop:gap-x-[unset] desktop:justify-end desktop:mr-[84rem]"
 			>
 				<div
 					class="flex flex-col-reverse gap-y-[4rem] items-center basis-x-[100%] tablet:basis-[192rem]"
