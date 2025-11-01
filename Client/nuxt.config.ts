@@ -29,5 +29,21 @@ export default defineNuxtConfig({
 		],
 		"motion-v/nuxt"
 	],
+	fonts: {
+		families: [
+			{
+				name: "Epilogue",
+				provider: "google",
+				weights: ["400", "700"],
+				styles: ["normal", "italic"]
+			},
+			{
+				name: "Inter",
+				provider: "google",
+				weights: ["700"],
+				styles: ["normal", "italic"]
+			}
+		]
+	},
 	vite: { plugins: [tailwindcss()] }
 });
