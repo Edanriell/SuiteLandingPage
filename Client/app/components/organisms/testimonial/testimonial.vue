@@ -2,10 +2,10 @@
 
 <template>
 	<section
-		class="relative rounded-[15rem] bg-[var(--colors-neutral-900)] pt-[345rem] pb-[40rem] px-[24rem]"
+		class="relative rounded-[15rem] bg-[var(--colors-neutral-900)] pt-[345rem] pb-[40rem] px-[24rem] tablet:mx-[32rem] tablet:px-[48rem] tablet:pb-[64rem] tablet:pt-[357rem]"
 	>
 		<div
-			class="absolute w-[252rem] top-[-185rem] left-[50%] -translate-x-[50%] desktop:w-[360rem]"
+			class="absolute w-[252rem] top-[-185rem] left-[50%] -translate-x-[50%] tablet:top-[-166rem] desktop:w-[360rem]"
 		>
 			<NuxtPicture
 				class="relative block z-20 tablet:hidden"
@@ -17,7 +17,7 @@
 				width="252"
 			/>
 			<NuxtPicture
-				class="hidden tablet:block desktop:hidden"
+				class="relative hidden z-20 tablet:block desktop:hidden"
 				densities="x1 x2"
 				format="avif,webp"
 				height="413"
@@ -26,7 +26,7 @@
 				width="252"
 			/>
 			<NuxtPicture
-				class="hidden desktop:block"
+				class="relative hidden z-20 desktop:block"
 				densities="x1 x2"
 				format="avif,webp"
 				height="590"
@@ -35,7 +35,7 @@
 				width="360"
 			/>
 			<svg
-				class="block z-10 w-[375rem] h-[518rem] absolute top-[40rem] left-[50%] -translate-x-[50%] tablet:hidden"
+				class="block z-10 w-[361rem] h-[518rem] absolute top-[40rem] left-[50%] -translate-x-[50%] tablet:hidden"
 				fill="none"
 				height="518"
 				viewBox="0 0 375 518"
@@ -70,7 +70,7 @@
 				</defs>
 			</svg>
 			<svg
-				class="hidden tablet:block desktop:hidden"
+				class="hidden z-10 w-[518rem] h-[518rem] absolute top-[60rem] left-[50%] -translate-x-[50%] tablet:block desktop:hidden"
 				fill="none"
 				height="518"
 				viewBox="0 0 518 518"
@@ -140,7 +140,7 @@
 				</defs>
 			</svg>
 			<svg
-				class="absolute bottom-[-81rem] left-[78rem] z-20"
+				class="absolute bottom-[-81rem] left-[78rem] z-20 tablet:bottom-[-82rem]"
 				fill="none"
 				height="54"
 				viewBox="0 0 66 54"
