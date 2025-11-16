@@ -2,10 +2,10 @@
 
 <template>
 	<section
-		class="relative rounded-[15rem] bg-[var(--colors-neutral-900)] pt-[345rem] pb-[40rem] px-[24rem] tablet:mx-[32rem] tablet:px-[48rem] tablet:pb-[64rem] tablet:pt-[357rem]"
+		class="relative rounded-[15rem] bg-[var(--colors-neutral-900)] pt-[345rem] pb-[40rem] px-[24rem] tablet:mx-[32rem] mb-[-15rem] tablet:px-[48rem] tablet:pb-[64rem] tablet:pt-[357rem] tablet:mb-[-320rem] desktop:grid desktop:grid-cols-2 desktop:grid-rows-1 desktop:gap-x-[160rem] desktop:py-[88rem] desktop:px-[125rem] desktop:mr-[164rem] desktop:ml-[167rem] desktop:mb-[-255rem]"
 	>
 		<div
-			class="absolute w-[252rem] top-[-185rem] left-[50%] -translate-x-[50%] tablet:top-[-166rem] desktop:w-[360rem]"
+			class="absolute w-[252rem] top-[-185rem] left-[50%] -translate-x-[50%] tablet:top-[-166rem] desktop:w-[360rem] desktop:relative desktop:top-[unset] desktop:left-[unset] desktop:translate-x-[unset] desktop:w-[unset] desktop:h-[unset] desktop:z-[20]"
 		>
 			<NuxtPicture
 				class="relative block z-20 tablet:hidden"
@@ -26,7 +26,7 @@
 				width="252"
 			/>
 			<NuxtPicture
-				class="relative hidden z-20 desktop:block"
+				class="hidden w-[360rem] h-[590rem] z-20 desktop:block desktop:absolute desktop:bottom-[-88rem] desktop:left-[50%] desktop:translate-x-[-50%]"
 				densities="x1 x2"
 				format="avif,webp"
 				height="590"
@@ -105,7 +105,7 @@
 				</defs>
 			</svg>
 			<svg
-				class="hidden desktop:block"
+				class="hidden z-10 absolute w-[566rem] h-[566rem] top-[5rem] left-[50%] translate-x-[-50%] desktop:block"
 				fill="none"
 				height="566"
 				viewBox="0 0 566 566"
@@ -140,7 +140,7 @@
 				</defs>
 			</svg>
 			<svg
-				class="absolute bottom-[-81rem] left-[78rem] z-20 tablet:bottom-[-82rem]"
+				class="absolute bottom-[-81rem] left-[78rem] z-20 tablet:bottom-[-82rem] desktop:left-[unset] desktop:right-[-116rem] desktop:top-[73.5rem]"
 				fill="none"
 				height="54"
 				viewBox="0 0 66 54"
@@ -154,28 +154,33 @@
 				/>
 			</svg>
 		</div>
-		<h2
-			class="font-[Epilogue] font-normal text-[48rem] leading-[120%] tracking-[-0.01em] text-[var(--colors-neutral-0)] text-center mb-[32rem]"
-		>
-			It just <strong class="font-bold">works.</strong>
-		</h2>
-		<figure class="relative">
-			<blockquote
-				class="font-[Epilogue] font-normal text-[20rem] leading-[160%] tracking-[-0.01em] text-center text-[var(--colors-neutral-200)] mb-[24rem]"
+		<div class="relative">
+			<h2
+				class="font-[Epilogue] font-normal text-[48rem] leading-[120%] tracking-[-0.01em] text-[var(--colors-neutral-0)] text-center mb-[32rem] desktop:text-left"
 			>
-				“I really like how it is an all-in-one solution that handle many of the tasks that
-				you would normally need separate tools to do the same job. This thing is a miracle
-				worker.”
-			</blockquote>
-			<figcaption
-				class="flex flex-col items-center font-[Epilogue] font-bold text-[18rem] leading-[160%] tracking-[-0.01em] uppercase text-[var(--colors-neutral-0)]"
-			>
-				Jeremy Robinson
-				<small
-					class="text-[16rem] font-normal leading-[150%] tracking-[0.16em] text-[var(--colors-neutral-200)]"
-					>Cmo, Fylo</small
+				It just <strong class="font-bold">works.</strong>
+			</h2>
+			<figure class="relative desktop:mr-[5rem]">
+				<blockquote
+					class="font-[Epilogue] font-normal text-[20rem] leading-[160%] tracking-[-0.01em] text-center text-[var(--colors-neutral-200)] mb-[24rem] desktop:text-left"
 				>
-			</figcaption>
-		</figure>
+					“I really like how it is an all-in-one solution that handle many of the tasks
+					that you would normally need separate tools to do the same job. This thing is a
+					miracle worker.”
+				</blockquote>
+				<figcaption
+					class="flex flex-col items-center font-[Epilogue] font-bold text-[18rem] leading-[160%] tracking-[-0.01em] uppercase text-[var(--colors-neutral-0)] desktop:items-start"
+				>
+					Jeremy Robinson
+					<small
+						class="text-[16rem] font-normal leading-[150%] tracking-[0.16em] text-[var(--colors-neutral-200)]"
+						>Cmo, Fylo</small
+					>
+				</figcaption>
+			</figure>
+		</div>
+		<div
+			class="hidden desktop:block w-full h-[100rem] absolute bg-[var(--colors-neutral-200)] bottom-[-100rem] z-30"
+		></div>
 	</section>
 </template>
