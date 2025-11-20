@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-	import { Button } from "@atoms";
+	import { Button, PrimaryHeading, Text } from "@atoms";
 </script>
 
 <template>
@@ -9,67 +9,17 @@
 		<div
 			class="flex flex-col tablet:col-start-[1] tablet:col-end-[3] tablet:row-start-[1] tablet:row-end-[2] tablet:z-2"
 		>
-			<h1
-				class="font-[Epilogue] font-normal text-[38rem] leading-[110%] tracking-[-0.01em] text-[var(--colors-neutral-900)] mb-[24rem] tablet:text-[56rem] tablet:mb-[40rem] tablet:mt-[87rem] desktop:text-[72rem] desktop:mt-[98rem] desktop:mb-[40rem]"
-			>
-				A
-				<strong class="font-bold!"
-					>super
-					<span class="relative">
-						<svg
-							class="absolute top-[-24rem] left-[16rem] tablet:hidden"
-							fill="none"
-							height="17"
-							viewBox="0 0 129 17"
-							width="129"
-							xmlns="http://www.w3.org/2000/svg"
-						>
-							<path
-								d="M0.460449 15.2221C0.460449 15.2221 61.9093 -16.7779 128.016 15.2221"
-								stroke="#172339"
-								stroke-width="2"
-							/>
-						</svg>
-						<svg
-							class="hidden absolute top-[-62rem] left-[72rem] tablet:block desktop:hidden"
-							fill="none"
-							height="34"
-							viewBox="0 0 288 34"
-							width="288"
-							xmlns="http://www.w3.org/2000/svg"
-						>
-							<path
-								d="M0.459717 32.9999C0.459717 32.9999 138.72 -39.0001 287.46 32.9999"
-								stroke="#172339"
-								stroke-width="2"
-							/>
-						</svg>
-						<svg
-							class="hidden absolute top-[-62rem] left-[0] desktop:block"
-							fill="none"
-							height="34"
-							viewBox="0 0 288 34"
-							width="288"
-							xmlns="http://www.w3.org/2000/svg"
-						>
-							<path
-								d="M0.459717 32.9999C0.459717 32.9999 138.72 -39.0001 287.46 32.9999"
-								stroke="#172339"
-								stroke-width="2"
-							/>
-						</svg>
-						solution
-					</span></strong
-				>
-				for your
-				<strong class="font-bold!">business.</strong>
-			</h1>
-			<p
-				class="font-[Epilogue] font-normal text-[18rem] leading-[160%] tracking-[0.01em] text-[var(--colors-neutral-500)] mb-[40rem] tablet:mb-[48rem] tablet:max-w-[350rem] desktop:mb-[64rem]"
-			>
+			<PrimaryHeading
+				after-bold="business."
+				before="A"
+				highlight="super"
+				middle="for your"
+				underlined="solution"
+			/>
+			<Text>
 				Our marketing and sales automations help you scale your outreach to get more leads
 				for your company.
-			</p>
+			</Text>
 			<Button class="w-[235rem]" variant="solid">Request Beta Access</Button>
 		</div>
 		<div

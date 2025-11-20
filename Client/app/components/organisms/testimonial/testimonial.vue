@@ -1,4 +1,6 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { SecondaryHeading } from "@atoms";
+</script>
 
 <template>
 	<section
@@ -155,11 +157,7 @@
 			</svg>
 		</div>
 		<div class="relative">
-			<h2
-				class="font-[Epilogue] font-normal text-[48rem] leading-[120%] tracking-[-0.01em] text-[var(--colors-neutral-0)] text-center mb-[32rem] desktop:text-left"
-			>
-				It just <strong class="font-bold">works.</strong>
-			</h2>
+			<SecondaryHeading before="It just " bold="works." />
 			<figure class="relative desktop:mr-[5rem]">
 				<blockquote
 					class="font-[Epilogue] font-normal text-[20rem] leading-[160%] tracking-[-0.01em] text-center text-[var(--colors-neutral-200)] mb-[24rem] desktop:text-left"
