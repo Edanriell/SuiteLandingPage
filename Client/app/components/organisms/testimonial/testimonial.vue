@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { SecondaryHeading } from "@atoms";
+	import { SecondaryHeading } from "@atoms";
 </script>
 
 <template>
