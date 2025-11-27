@@ -15,7 +15,6 @@ interface PersonTestimonialProps {
 <template>
 	<figure class="relative desktop:mr-[5rem]">
 		<Quote>{{ quote }}</Quote>
-
 		<QuoteAuthor :name="name" :title="title" />
 	</figure>
 </template>

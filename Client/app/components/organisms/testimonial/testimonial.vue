@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 	import { SecondaryHeading } from "@atoms";
+	import { PersonTestimonial } from "@molecules";
 </script>
 
 <template>
@@ -158,24 +159,11 @@
 		</div>
 		<div class="relative">
 			<SecondaryHeading before="It just " bold="works." />
-			<figure class="relative desktop:mr-[5rem]">
-				<blockquote
-					class="font-[Epilogue] font-normal text-[20rem] leading-[160%] tracking-[-0.01em] text-center text-[var(--colors-neutral-200)] mb-[24rem] desktop:text-left"
-				>
-					“I really like how it is an all-in-one solution that handle many of the tasks
-					that you would normally need separate tools to do the same job. This thing is a
-					miracle worker.”
-				</blockquote>
-				<figcaption
-					class="flex flex-col items-center font-[Epilogue] font-bold text-[18rem] leading-[160%] tracking-[-0.01em] uppercase text-[var(--colors-neutral-0)] desktop:items-start"
-				>
-					Jeremy Robinson
-					<small
-						class="text-[16rem] font-normal leading-[150%] tracking-[0.16em] text-[var(--colors-neutral-200)]"
-						>Cmo, Fylo</small
-					>
-				</figcaption>
-			</figure>
+			<PersonTestimonial
+				name="Jeremy Robinson"
+				quote="I really like how it is an all-in-one solution that handle many of the tasks that you would normally need separate tools to do the same job. This thing is a miracle worker."
+				title="CMO, Fylo"
+			/>
 		</div>
 		<div
 			class="hidden desktop:block w-full h-[100rem] absolute bg-[var(--colors-neutral-200)] bottom-[-100rem] z-30"
