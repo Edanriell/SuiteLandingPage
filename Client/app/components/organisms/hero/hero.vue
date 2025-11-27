@@ -1,5 +1,6 @@
 <script lang="ts" setup>
-	import { Button, PrimaryHeading, Text } from "@atoms";
+	import { Button, PrimaryHeading, Statistic, Text } from "@atoms";
+	import { Statistics } from "@molecules";
 </script>
 
 <template>
@@ -53,51 +54,10 @@
 				width="350"
 			/>
 		</div>
-		<div
-			class="relative tablet:col-start-[1] tablet:col-end-[-1] tablet:mt-[80rem] desktop:mt-[unset] desktop:col-start-[unset] desktop:col-end-[unset] desktop:content-center"
-		>
-			<dl
-				class="flex flex-col gap-y-[40rem] items-center tablet:grid tablet:gap-x-[64rem] tablet:grid-cols-[1fr_1fr_1fr] desktop:grid-cols-[unset] desktop:grid-rows-[86rem_86rem_86rem] desktop:gap-y-[64rem] desktop:gap-x-[unset] desktop:justify-end desktop:mr-[84rem]"
-			>
-				<div
-					class="flex flex-col-reverse gap-y-[4rem] items-center basis-x-[100%] tablet:basis-[192rem]"
-				>
-					<dt
-						class="font-[Epilogue] font-normal text-[16rem] leading-[150%] tracking-[0.16em] uppercase text-[var(--colors-neutral-500)]"
-					>
-						Companies
-					</dt>
-					<dd
-						class="font-[Epilogue] font-bold text-[48rem] leading-[120%] tracking-[-0.01em] uppercase text-[var(--colors-neutral-900)]"
-					>
-						2K+
-					</dd>
-				</div>
-				<div class="flex flex-col-reverse gap-y-[4rem] items-center tablet:basis-[192rem]">
-					<dt
-						class="font-[Epilogue] font-normal text-[16rem] leading-[150%] tracking-[0.16em] uppercase text-[var(--colors-neutral-500)]"
-					>
-						Languages
-					</dt>
-					<dd
-						class="font-[Epilogue] font-bold text-[48rem] leading-[120%] tracking-[-0.01em] uppercase text-[var(--colors-neutral-900)]"
-					>
-						8
-					</dd>
-				</div>
-				<div class="flex flex-col-reverse gap-y-[4rem] items-center tablet:basis-[192rem]">
-					<dt
-						class="font-[Epilogue] font-normal text-[16rem] leading-[150%] tracking-[0.16em] uppercase text-[var(--colors-neutral-500)]"
-					>
-						Leads
-					</dt>
-					<dd
-						class="font-[Epilogue] font-black text-[48rem] leading-[120%] tracking-[-0.01em] uppercase text-[var(--colors-neutral-900)]"
-					>
-						1.2M
-					</dd>
-				</div>
-			</dl>
-		</div>
+		<Statistics>
+			<Statistic label="Companies" value="2K+" />
+			<Statistic label="Languages" value="8" />
+			<Statistic label="Leads" value="1.2M" />
+		</Statistics>
 	</section>
 </template>
