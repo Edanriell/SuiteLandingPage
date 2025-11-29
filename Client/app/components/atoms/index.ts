@@ -1,5 +1,6 @@
 export { default as Button } from "./button/button.vue";
 export { default as Copyright } from "./copyright/copyright.vue";
+export { default as Link } from "./link/link.vue";
 export { default as Logotype } from "./logotype/logotype.vue";
 export { default as PersonName } from "./person-name/person-name.vue";
 export { default as PersonOccupation } from "./person-occupation/person-occupation.vue";
