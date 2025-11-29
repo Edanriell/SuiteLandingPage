@@ -1,7 +1,7 @@
 <script lang="ts" setup>
-import { animate, Motion, motionValue } from "motion-v";
+	import { animate, Motion, motionValue } from "motion-v";
 
-interface LinkSolidProps {
+	interface LinkSolidProps {
 		to: string;
 		initialColor?: string;
 		initialGradientColors?: Array<string>;
