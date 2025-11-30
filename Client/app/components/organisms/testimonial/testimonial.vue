@@ -1,79 +1,17 @@
 <script lang="ts" setup>
-	import { SecondaryHeading } from "@atoms";
-	import { PersonTestimonial } from "@molecules";
+import { SecondaryHeading } from "@atoms";
+import { PersonTestimonial } from "@molecules";
 </script>
 
 <template>
 	<section
-		class="relative rounded-[15rem] bg-[var(--colors-neutral-900)] pt-[345rem] pb-[40rem] px-[24rem] tablet:mx-[32rem] mb-[-15rem] tablet:px-[48rem] tablet:pb-[64rem] tablet:pt-[357rem] tablet:mb-[-320rem] desktop:grid desktop:grid-cols-2 desktop:grid-rows-1 desktop:gap-x-[160rem] desktop:py-[88rem] desktop:px-[125rem] desktop:mr-[164rem] desktop:ml-[167rem] desktop:mb-[-255rem]"
+		class="relative z-10 rounded-[15rem] bg-[var(--colors-neutral-900)] pt-[345rem] pb-[40rem] px-[24rem] tablet:mx-[32rem] mb-[-15rem] tablet:px-[48rem] tablet:pb-[64rem] tablet:pt-[357rem] tablet:mb-[-320rem] desktop:grid desktop:grid-cols-2 desktop:grid-rows-1 desktop:gap-x-[160rem] desktop:py-[88rem] desktop:px-[125rem] desktop:mr-[164rem] desktop:ml-[167rem] desktop:mb-[-255rem]"
 	>
 		<div
-			class="absolute w-[252rem] top-[-185rem] left-[50%] -translate-x-[50%] tablet:top-[-166rem] desktop:w-[360rem] desktop:relative desktop:top-[unset] desktop:left-[unset] desktop:translate-x-[unset] desktop:w-[unset] desktop:h-[unset] desktop:z-[20]"
+			class="w-full rounded-[15rem] desktop:rounded-[unset] desktop:rounded-l-[15rem]! desktop:w-[56%] h-full absolute top-0 left-0 overflow-hidden"
 		>
-			<NuxtPicture
-				class="relative block z-20 tablet:hidden"
-				densities="x1 x2"
-				format="avif,webp"
-				height="412"
-				quality="100"
-				src="images/testimonial/person_mobile.png"
-				width="252"
-			/>
-			<NuxtPicture
-				class="relative hidden z-20 tablet:block desktop:hidden"
-				densities="x1 x2"
-				format="avif,webp"
-				height="413"
-				quality="100"
-				src="images/testimonial/person_tablet.png"
-				width="252"
-			/>
-			<NuxtPicture
-				class="hidden w-[360rem] h-[590rem] z-20 desktop:block desktop:absolute desktop:bottom-[-88rem] desktop:left-[50%] desktop:translate-x-[-50%]"
-				densities="x1 x2"
-				format="avif,webp"
-				height="590"
-				quality="100"
-				src="images/testimonial/person_desktop.png"
-				width="360"
-			/>
 			<svg
-				class="block z-10 w-[361rem] h-[518rem] absolute top-[40rem] left-[50%] -translate-x-[50%] tablet:hidden"
-				fill="none"
-				height="518"
-				viewBox="0 0 375 518"
-				width="375"
-				xmlns="http://www.w3.org/2000/svg"
-			>
-				<g filter="url(#filter0_f_3_741)" opacity="0.476236">
-					<circle cx="188" cy="258.914" fill="#CB30E3" r="123" />
-				</g>
-				<defs>
-					<filter
-						id="filter0_f_3_741"
-						color-interpolation-filters="sRGB"
-						filterUnits="userSpaceOnUse"
-						height="517.828"
-						width="517.828"
-						x="-70.9141"
-						y="-3.05176e-05"
-					>
-						<feFlood flood-opacity="0" result="BackgroundImageFix" />
-						<feBlend
-							in="SourceGraphic"
-							in2="BackgroundImageFix"
-							mode="normal"
-							result="shape"
-						/>
-						<feGaussianBlur
-							result="effect1_foregroundBlur_3_741"
-							stdDeviation="67.957"
-						/>
-					</filter>
-				</defs>
-			</svg>
-			<svg
-				class="hidden z-10 w-[518rem] h-[518rem] absolute top-[60rem] left-[50%] -translate-x-[50%] tablet:block desktop:hidden"
+				class="block z-0 w-[361rem] h-[518rem] absolute top-[-100rem] left-[50%] -translate-x-[50%] tablet:hidden"
 				fill="none"
 				height="518"
 				viewBox="0 0 518 518"
@@ -108,7 +46,42 @@
 				</defs>
 			</svg>
 			<svg
-				class="hidden z-10 absolute w-[566rem] h-[566rem] top-[5rem] left-[50%] translate-x-[-50%] desktop:block"
+				class="hidden z-0 w-[518rem] h-[518rem] absolute top-[-120rem] left-[50%] -translate-x-[50%] tablet:block desktop:hidden"
+				fill="none"
+				height="518"
+				viewBox="0 0 518 518"
+				width="518"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<g filter="url(#filter0_f_3_559)" opacity="0.476236">
+					<circle cx="258.914" cy="258.914" fill="#CB30E3" r="123" />
+				</g>
+				<defs>
+					<filter
+						id="filter0_f_3_559"
+						color-interpolation-filters="sRGB"
+						filterUnits="userSpaceOnUse"
+						height="517.828"
+						width="517.828"
+						x="-3.05176e-05"
+						y="-3.05176e-05"
+					>
+						<feFlood flood-opacity="0" result="BackgroundImageFix" />
+						<feBlend
+							in="SourceGraphic"
+							in2="BackgroundImageFix"
+							mode="normal"
+							result="shape"
+						/>
+						<feGaussianBlur
+							result="effect1_foregroundBlur_3_559"
+							stdDeviation="67.957"
+						/>
+					</filter>
+				</defs>
+			</svg>
+			<svg
+				class="hidden z-10 absolute w-[566rem] h-[566rem] top-[180rem] left-[50%] translate-x-[-50%] desktop:block"
 				fill="none"
 				height="566"
 				viewBox="0 0 566 566"
@@ -142,6 +115,37 @@
 					</filter>
 				</defs>
 			</svg>
+		</div>
+		<div
+			class="absolute w-[252rem] top-[-185rem] left-[50%] -translate-x-[50%] tablet:top-[-166rem] desktop:w-[360rem] desktop:relative desktop:top-[unset] desktop:left-[unset] desktop:translate-x-[unset] desktop:w-[unset] desktop:h-[unset] desktop:z-[20]"
+		>
+			<NuxtPicture
+				class="relative block z-20 tablet:hidden"
+				densities="x1 x2"
+				format="avif,webp"
+				height="412"
+				quality="100"
+				src="images/testimonial/person_mobile.png"
+				width="252"
+			/>
+			<NuxtPicture
+				class="relative hidden z-20 tablet:block desktop:hidden"
+				densities="x1 x2"
+				format="avif,webp"
+				height="413"
+				quality="100"
+				src="images/testimonial/person_tablet.png"
+				width="252"
+			/>
+			<NuxtPicture
+				class="hidden w-[360rem] h-[590rem] z-20 desktop:block desktop:absolute desktop:bottom-[-88rem] desktop:left-[50%] desktop:translate-x-[-50%]"
+				densities="x1 x2"
+				format="avif,webp"
+				height="590"
+				quality="100"
+				src="images/testimonial/person_desktop.png"
+				width="360"
+			/>
 			<svg
 				class="absolute bottom-[-81rem] left-[78rem] z-20 tablet:bottom-[-82rem] desktop:left-[unset] desktop:right-[-116rem] desktop:top-[73.5rem]"
 				fill="none"
@@ -165,8 +169,5 @@
 				title="CMO, Fylo"
 			/>
 		</div>
-		<div
-			class="hidden desktop:block w-full h-[100rem] absolute bg-[var(--colors-neutral-200)] bottom-[-100rem] z-30"
-		></div>
 	</section>
 </template>

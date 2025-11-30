@@ -16,16 +16,16 @@
         "eslint": "^9.39.1",
         "motion-v": "^1.7.4",
         "nuxt": "^4.2.1",
-        "prettier": "^3.7.1",
+        "prettier": "^3.7.2",
         "prettier-plugin-css-order": "^2.1.2",
         "prettier-plugin-organize-attributes": "^1.0.0",
         "prettier-plugin-organize-imports": "^4.3.0",
-        "prettier-plugin-packagejson": "^2.5.19",
+        "prettier-plugin-packagejson": "^2.5.20",
         "prettier-plugin-sh": "^0.18.0",
         "prettier-plugin-style-order": "^0.2.2",
         "prettier-plugin-tailwindcss": "^0.7.1",
         "prettier-plugin-vue": "^1.1.6",
-        "stylelint": "^16.26.0",
+        "stylelint": "^16.26.1",
         "tailwindcss": "^4.1.17",
         "vue": "^3.5.25",
         "vue-router": "^4.6.3",
@@ -1625,7 +1625,7 @@
 
     "prelude-ls": ["prelude-ls@1.2.1", "", {}, "sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g=="],
 
-    "prettier": ["prettier@3.7.2", "", { "bin": { "prettier": "bin/prettier.cjs" } }, "sha512-n3HV2J6QhItCXndGa3oMWvWFAgN1ibnS7R9mt6iokScBOC0Ul9/iZORmU2IWUMcyAQaMPjTlY3uT34TqocUxMA=="],
+    "prettier": ["prettier@3.7.3", "", { "bin": { "prettier": "bin/prettier.cjs" } }, "sha512-QgODejq9K3OzoBbuyobZlUhznP5SKwPqp+6Q6xw6o8gnhr4O85L2U915iM2IDcfF2NPXVaM9zlo9tdwipnYwzg=="],
 
     "prettier-plugin-css-order": ["prettier-plugin-css-order@2.1.2", "", { "dependencies": { "css-declaration-sorter": "^7.1.1", "postcss-less": "^6.0.0", "postcss-scss": "^4.0.9" }, "peerDependencies": { "prettier": "3.x" } }, "sha512-vomxPjHI6pOMYcBuouSJHxxQClJXaUpU9rsV9IAO2wrSTZILRRlrxAAR8t9UF6wtczLkLfNRFUwM+ZbGXOONUA=="],
 
