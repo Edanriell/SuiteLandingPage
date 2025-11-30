@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import { SecondaryHeading } from "@atoms";
-import { PersonTestimonial } from "@molecules";
+	import { SecondaryHeading } from "@atoms";
+	import { PersonTestimonial } from "@molecules";
 </script>
 
 <template>
